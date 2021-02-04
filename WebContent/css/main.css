@@ -1,0 +1,8 @@
+@charset "US-ASCII";
+
+p {
+	font-size : 15px;
+}
+.py-4 {
+	padding-top: 3.5rem !important;
+}
