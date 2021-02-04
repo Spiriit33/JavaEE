@@ -4,7 +4,7 @@
 <html>
 <t:genericpage>
 	<jsp:attribute name="content">
-	<h3 class="pull-right">Modifier article <a class="text-info" style="float:right;" href="/cours/clients?tab=1">← Retour liste des articles</a></h3>
+	<h3 class="pull-right">Modifier article <a class="text-info" style="float:right;" href="/cours/articles?tab=1">← Retour liste des articles</a></h3>
 	<hr/>
 	<form method="post" action="">
 	<div class="form-group row">
