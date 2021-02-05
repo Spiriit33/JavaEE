@@ -23,7 +23,7 @@ public class FactureDao extends DatabaseManager implements FactureDaoInterface {
 			while(results.next()) {
 				Client client = new Client();
 				client.setNom(results.getString("c_nom"));
-				client.setAddresse(results.getString("c_addresse");
+				client.setAddresse(results.getString("c_addresse"));
 
 				Facture facture = new Facture();
 			        facture.setId(results.getLong("id"));
