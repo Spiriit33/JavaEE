@@ -13,7 +13,8 @@ import cours.ClientDaoInterface;
 import cours.model.DatabaseManager;
 
 public class ClientDao extends DatabaseManager implements ClientDaoInterface {
-	
+
+	//Get collection of all clients
 	public List<Client> getAll() {
 		List<Client> clients = new ArrayList<Client>();
 		try {
@@ -33,7 +34,8 @@ public class ClientDao extends DatabaseManager implements ClientDaoInterface {
 		}
 		return clients;
 	}
-	
+
+    //
 	public Client findById(Long id) {
 		Client client = new Client();
 		try {
